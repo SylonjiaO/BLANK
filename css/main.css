@@ -1,27 +1,32 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .btn-custom {
-	box-shadow:inset 0px 1px 0px 0px #ffffff;
-	background-color:transparent;
+	box-shadow:inset 0px 1px 0px 0px white !important;
+	background-color:white;
 	border-radius:21px;
 	border:9px solid #000000;
-	display:inline-block;
+	display:flex;
 	cursor:pointer;
 	color:#000000;
-	font-family:Arial;
-	font-size:23px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.1em; ;
 	font-weight:bold;
-	padding:7px 24px;
+	padding:5px 16px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #ffffff;
+    text-align:center;
 }
-.btn-custom:hover {
+.btn-custom:hover { 
 	background-color:transparent;
 }
 .btn-custom:active {
 	position:relative;
+
 	top:1px;
 }
+
+#mainnav {
+	display:flex;
+    justify-content: center;
+}
+
