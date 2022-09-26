@@ -82,3 +82,19 @@
 .list-card {
   width: 80px;
 }
+
+
+
+  .jumbotron-bg {
+	background-image: url('../images/Crispy2\ 1.svg');
+	background-size: cover;
+	background-position: center center;
+	min-height: 400px }
+
+	.bg-lighter{
+		background-color: rgba(0,0,0,.35);
+	}
+
+	#bg-4d694e a{
+		color: #4d694e;
+	}
