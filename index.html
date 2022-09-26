@@ -56,16 +56,12 @@
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
-      <!--cart-->
-     <button class="btn position-relative" >
-           <i class="fa-solid fa-shopping-basket bg-light"></i>  <span class="badge position-absolute top-0 start-100 translate-middle bg-success rounded-pill ">1</span>
-     </button>
      <!--login-->
      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
         <i class="fa-solid fa-user bg-light"></i> 
       </button>
       
-      <!-- Modal -->
+      <!-- Modal Login -->
       <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog">
           <div class="modal-content">
@@ -116,8 +112,52 @@
           </div>
         </div>
       </div>
+      <!--Split Dropdown Cart -->
+      <div class="btn-group">
+       <button  type="button"  class="btn position-relative" data-bs-toggle="modal"  data-bs-target="#staticbackdrop" >
+        <i class="fa-solid fa-shopping-basket bg-light"></i>  <span class="badge position-absolute top-0 start-100 translate-middle bg-success rounded-pill ">1</span>
+  </button>
+    <button class="btn fa fa-angle-down dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-expanded="false" style="cursor:pointer;"></button>
+    <div class="dropdown-menu dropdown-menu-end" style="min-width:300px;">
+      <div class="px-4 py-4">
+        <h5 class="text-center mb-5">1 Item in Cart</h5>
+        <table class="table table-sm">
+          <thead class="text-center">
+            <tr>
+              <th></th>
+              <th>Product</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody class="text-center">
+            <tr>
+              <td class="align-middle text-center">
+                <div class="list-card">
+                  <a href="#removeModal" class="text-muted" data-bs-toggle="modal" data-bs-target="#removeModal" data-title=""><i class="fa fa-trash" aria-hidden="true"></i></a>
+                  <img src="images/Pinkbed1 1.svg" alt="Pink Bedding">
+                </div>
+              </td>
+              <td class="align-middle">Pinka Puff</td>
+              <td>1</td>
+              <td>$600</td>
+            </tr>
+            <tr>
+              <td class="align-middle text-center">
+                <button type="reset">Checkout</button>
+                </td> 
+                <td class="align-middle text-center">
+                  <button type="reset">Shop</button>
+                  </td>
+                 </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+</div>
      
-   </div>
+      
+      </div>
   </nav>
     
  </header>
@@ -129,10 +169,10 @@
                 <h2 class="display-2 text-center text-muted">What's new</h2>
                 <img class="d-block mx-auto mb-4" src="images/Crispy1.jpg" alt="" width="500" height="450">
     <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam null</p>
-    <a class="btn btn-custom2" href="#">Click me</a>
+    <a class="btn btn-custom2" href="#">Gallery</a>
     </div>   
 </div>
-    </div>
+</div>
 </section>
  </main>
  <footer>
